@@ -1,0 +1,11 @@
+C:\Projects\Messenger\MessengerServiceLibrary.Test\bin\Debug\MessengerServiceLibrary.Test.dll
+C:\Projects\Messenger\MessengerServiceLibrary.Test\bin\Debug\MessengerServiceLibrary.Test.pdb
+C:\Projects\Messenger\MessengerServiceLibrary.Test\bin\Debug\MessengerServiceLibrary.dll
+C:\Projects\Messenger\MessengerServiceLibrary.Test\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Projects\Messenger\MessengerServiceLibrary.Test\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Projects\Messenger\MessengerServiceLibrary.Test\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Projects\Messenger\MessengerServiceLibrary.Test\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Projects\Messenger\MessengerServiceLibrary.Test\bin\Debug\MessengerServiceLibrary.pdb
+C:\Projects\Messenger\MessengerServiceLibrary.Test\obj\Debug\MessengerServiceLibrary.Test.csprojResolveAssemblyReference.cache
+C:\Projects\Messenger\MessengerServiceLibrary.Test\obj\Debug\MessengerServiceLibrary.Test.dll
+C:\Projects\Messenger\MessengerServiceLibrary.Test\obj\Debug\MessengerServiceLibrary.Test.pdb

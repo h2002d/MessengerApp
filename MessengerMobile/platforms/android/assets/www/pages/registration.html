@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link href="../css/Style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div class="profile_edit_Container">
+        <form onsubmit="updateUserClick()">
+            Name<br />
+            <input class="profile_textfield" id="register_name" required placeholder="Type your name..." type="text" /><br />
+            Surname<br />
+            <input class="profile_textfield" id="register_surname" required placeholder="Type your surname..." type="text" /><br />
+            Username<div id="profile_username_exists"></div><br />
+            <input onchange="userNameExistsAction()" class="profile_textfield" required placeholder="Type your username..." autocomplete="off" id="register_username" type="text" /><br />
+            Profile Picture<br />
+            <img id="profile_picture" src="../images/no_image.png" width="80px" height="90px" /><br />
+            Password<br />
+            <input class="profile_textfield" id="register_password" required  placeholder="Type your password..." type="password" /><br />
+            Confirm password<br />
+            <input class="profile_textfield" id="register_confirmpassword" required placeholder="Confirm your password..."  type="password" /><br />
+            <input class="profile_textfield" id="profile_submit" type="submit" value="Register" />
+        </form>
+    </div>
+</body>
+</html>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="../scripts/cordova_helper.js"></script>
+<script src="../scripts/registration.js"></script>

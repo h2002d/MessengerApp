@@ -1,0 +1,9 @@
+C:\Projects\Messenger\MessengerServiceLibrary\bin\Debug\MessengerServiceLibrary.dll.config
+C:\Projects\Messenger\MessengerServiceLibrary\bin\Debug\MessengerServiceLibrary.dll
+C:\Projects\Messenger\MessengerServiceLibrary\bin\Debug\MessengerServiceLibrary.pdb
+C:\Projects\Messenger\MessengerServiceLibrary\obj\Debug\MessengerServiceLibrary.dll
+C:\Projects\Messenger\MessengerServiceLibrary\obj\Debug\MessengerServiceLibrary.pdb
+C:\Projects\Messenger\MessengerServiceLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Projects\Messenger\MessengerServiceLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Projects\Messenger\MessengerServiceLibrary\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Projects\Messenger\MessengerServiceLibrary\obj\Debug\MessengerServiceLibrary.csprojResolveAssemblyReference.cache

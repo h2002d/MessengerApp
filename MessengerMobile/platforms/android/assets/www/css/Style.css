@@ -1,0 +1,81 @@
+﻿body {
+    background-color: #e4e4e4;
+    margin: 0 !important;
+}
+
+a {
+    color: #ffffff;
+    font-family: Sylfaen;
+    font-size: 15px;
+    text-decoration: none;
+}
+/*userprofile*/
+.profile_edit_Container {
+    margin: 10px 10px 0 10px;
+    font-family: Sylfaen;
+    color: rgb(30, 30, 30);
+    font-size: 20px;
+}
+
+#profile_submit {
+    height: 40px;
+    border: none;
+    background: #0C6;
+    width: 100%;
+    outline: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #eee;
+    border-bottom: solid 3px #093;
+    border-radius: 3px;
+    cursor: pointer;
+    margin: 10px 10px 0 0;
+}
+
+.profile_textfield {
+    width: 100%;
+    height: 40px;
+    font-family: Sylfaen;
+    font-size: 30px;
+    padding: 0 0 0 5px;
+    background: rgba(87, 145, 250, 0.60);
+    border: 1px solid rgba(143, 178, 241, 0.93);
+    margin: 10px 10px 0 0;
+    border-bottom: solid 3px rgb(87, 145, 250);
+    border-radius: 3px;
+}
+
+#profile_username_exists {
+    color: #ff0000;
+    font-size: 12px;
+    font-family: Sylfaen;
+    float: right;
+    margin: 10px 90px 0 0;
+}
+/*userprofile end*/
+
+/*registration*/
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color: #808080;
+}
+/*registration end*/
+
+/*messages*/
+.messages_content{
+    padding: 5px 10px 0 5px;
+}
+.messages_textfield {
+    width: 100%;
+    height: 40px;
+    font-family: Sylfaen;
+    font-size: 30px;
+    padding: 0 0 0 5px;
+    background: rgba(193, 195, 196, 0.60);
+    border: 1px solid rgba(193, 195, 196, 0.93);
+    margin: 10px 10px 0 0;
+    border-bottom: solid 3px rgb(193, 195, 196);
+    border-radius: 3px;
+}
+/*messages end*/

@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link href="../css/Style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div class="info_container">
+        <div id="timeline_username"></div>
+        <img id="timeline_picture" class="profile_pic" src="../images/no_image.png" width="80px" height="90px" />
+        <div class="timeline_tab_container">
+            <ul class="timeline_tab_menu">
+                <li class="timeline_tab_item"><a href="userprofile.html">Profile</a></li>
+                <li class="timeline_tab_item"><a href="message.html">Messages</a></li>
+                <li class="timeline_tab_item"><a href="about.html">About us</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
+<style>
+    .info_container {
+        position: absolute;
+        background-color: #413fff;
+        color: #cfcfcf;
+        text-align: center;
+        font-family: Sylfaen;
+        width: 100%;
+    }
+
+    
+
+    #timeline_username {
+        position: absolute;
+        left: 0;
+        margin: 10px;
+    }
+
+    #timeline_picture {
+        float: left;
+        margin: 40px 10px 10px 10px;
+    }
+
+    .timeline_tab_container {
+        margin-left: 55px;
+    }
+
+    .timeline_tab_menu {
+        list-style-type: none;
+    }
+
+    .timeline_tab_item {
+        margin:5px 0 0 0 ;
+        padding: 2px;
+        border: 1px solid black;
+    }
+
+</style>
+<script src="../scripts/cordova_helper.js"></script>
+<script src="../scripts/timeline.js"></script>

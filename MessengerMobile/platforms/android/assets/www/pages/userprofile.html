@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link href="../css/Style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div class="profile_edit_Container">
+        <form onsubmit="updateUserClick()">
+            Name<br />
+            <input class="profile_textfield" id="name" required type="text" /><br />
+            Surname<br />
+            <input class="profile_textfield" id="surname" required type="text" /><br />
+            Username<div id="profile_username_exists"></div><br />
+            <input required onchange="userNameExistsAction()" class="profile_textfield" autocomplete="off" id="profile_username" type="text" /><br />
+            Profile Picture<br />
+            <img id="profile_picture" src="../images/no_image.png" width="80px" height="90px" /><br />
+            Password<br />
+            <input required class="profile_textfield" id="profile_password" type="password" /><br />
+            Confirm password<br />
+            <input required class="profile_textfield" id="confirmpassword" type="password" /><br />
+            <input class="profile_textfield" id="profile_submit" type="submit" />
+        </form>
+    </div>
+</body>
+</html>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="../scripts/cordova_helper.js"></script>
+<script src="../scripts/userprofile.js"></script>

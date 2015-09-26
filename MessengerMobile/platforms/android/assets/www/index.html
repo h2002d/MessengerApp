@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>MessengerMobile</title>
+
+    <!-- MessengerMobile references -->
+    <link href="css/index.css" rel="stylesheet" />
+</head>
+<body>
+    <!-- Cordova reference, this is added to your app when it's built. -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="cordova.js"></script>
+    <script src="scripts/platformOverrides.js"></script>
+    <script src="scripts/cordova_helper.js"></script>
+    <script src="scripts/index.js"></script>
+
+    <div class="form">
+        <div class="header"><h2>Sign In</h2></div>
+        <div class="login">
+                <ul>
+                    <li>
+                        <span class="un"><i class="fa fa-user"></i></span><input type="text" id="login_username" required class="text" placeholder="User Name Or Email" />
+                    </li>
+                    <li>
+                        <span class="un"><i class="fa fa-lock"></i></span><input type="password" id="login_password" required class="text" placeholder="User Password" />
+                    </li>
+                    <li>
+                        <input type="button" onclick="onLoginButtonClick()" value="LOGIN" class="btn"/>
+                    </li>
+                    <li><div class="span"><span class="ch"><input type="checkbox" id="r"> <label for="r">Remember Me</label> </span> <span class="ch"><a href="#">Forgot Password?</a></span></div></li>
+                </ul>
+        </div><br />
+        <div class="sign">
+            <div class="need">Need new account ?</div>
+            <div class="up" onclick="window.location.href = 'pages/registration.html'">Sign Up</div>
+            <div class="up" onclick="'getMessages()'">Alert Messages</div>
+            
+        </div>
+    </div>
+</body>
+</html>
